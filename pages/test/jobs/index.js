@@ -86,7 +86,7 @@ const Jobs = ({ jobList }) => {
     return (
         <div className="bg_main">
             <div className="container">
-                <h1 className="main_color">Nearest Jobs</h1>
+                <h1 className="main_color mt-3">Nearest Jobs</h1>
                 {/* </div> */}
                 <hr />
                 {/* <div className="container"> */}

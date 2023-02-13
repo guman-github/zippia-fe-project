@@ -8,6 +8,7 @@ body {
 
 .bg_main {
     background-color: #f3f2ef !important;
+    overflow: auto;
 }
 
 hr {
@@ -92,9 +93,16 @@ a {
     margin: 2px 0px;
 }
 
-.card {
-    min-height: 230px;
+.jobOverviewCol {
+    padding: 5px;
+    margin: 2px 0px;
 }
+
+.card {
+    min-height: 187px;
+    min-width: 424px;
+}
+
 .truncate {
     display: -webkit-box;
     max-width: 200px;
@@ -187,4 +195,11 @@ a {
         color: white;
         background: black;
     }
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        min-width: 100%;
+        width: 100%;
+    } 
 }

@@ -16,13 +16,12 @@ const ExpandText = ({ content, limit }) => {
             <div>
                 <div dangerouslySetInnerHTML={{ __html: content }} />
                 <Button className="position-absolute bottom-0 end-0" variant="link" onClick={showLess}>
-                    Read less
+                    Read Less
                 </Button>
             </div>
         );
     }
     // In the final case, we show a text with ellipsis and a `Read more` button
-    const toShow = content.substring(0, limit) + '...';
     return (
         <div>
             <div className="truncate" dangerouslySetInnerHTML={{ __html: content }} />
